@@ -1,0 +1,371 @@
+/*Configurações gerais do site*/
+:root{
+    --branco: #f6f6f6;
+    --azul: #003399;
+    --vermelho_claro: #db0000;
+    --vermelho_escuro: #BA0000;
+    --cinza_claro: #dfdfdf;
+    --cinza_escuro: #424242;
+}
+
+@font-face {
+    font-family: idealista;
+    src: url(../font/Idealista-Bold.ttf);
+}
+
+@font-face {
+    font-family: cunia;
+    src: url(../font/Cunia.ttf);
+}
+
+
+.title-red{
+    font-family: idealista;
+    color: var(--vermelho_claro);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.title-blue{
+    font-family: idealista;
+    color: var(--azul);
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+/*Configuração do aviso de cookies*/
+.toast{
+    border-radius: 10px !important;
+}
+
+.toast-header{
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.toast-header > strong{
+    font-family: idealista !important;
+    text-transform: uppercase; 
+}
+
+.toast-header > img{
+    width: 1rem;
+}
+
+/*Loading screen*/
+.loading-screen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--cinza_claro);
+    z-index: 1;
+    overflow: hidden !important;
+}
+
+.loading-screen > img{
+    position: relative;
+    width: 5rem;
+    top: 40%;
+}
+
+/*Configuração da navbar*/
+.navbar{
+    background-image: url(../image/navbar_light.jpg);
+    height: 3rem;
+}
+
+.navbar-logo{
+    width: 20rem;
+    height: 7rem;
+    margin-top: 2rem;
+    background-image: url(../image/navbar_light.jpg);
+    border-radius: 0px 0px 200px 200px;
+}
+
+.navbar-logo > a > img{
+    width: 100%;
+    padding: 4rem;
+    margin-top: -1.5rem;
+}
+
+.nav-item{
+    margin-top: 3.2rem;
+}
+
+.nav-item > a{
+    font-family: idealista;
+    color: var(--azul) !important;
+    text-transform: uppercase;
+}
+
+/*Configurações da área do player*/
+.player-block-one{
+    background-color: var(--cinza_claro);
+}
+
+.player-one > img:nth-child(1){
+    border-radius: 0px 0px 200px 0px;
+}
+
+.player-one > img:nth-child(2){
+    border-radius: 200px 0px 0px 0px;
+    float: right;
+}
+
+.player-block-two{
+    margin-top: -38rem;
+}
+
+.player-two > div:nth-child(1){
+    width: 100%;
+    height: 32rem !important;
+}
+
+.player-two > div:nth-child(2){
+    margin-top: -35.5rem;
+    float: right;
+}
+
+.player-two > div:nth-child(2) > button{
+    font-size: 1.3rem;
+    border-radius: 360px;
+    outline: none;
+    color: var(--vermelho_claro) !important;
+    border: 5px solid var(--cinza_claro);
+}
+
+/*Configuração dos destaques e grade de programação*/
+.destaque-block{
+    margin-top: 5.5rem;
+}
+
+.destaque-navbar > nav > span{
+    background-image: url(../image/navbar_light.jpg);
+    font-family: idealista;
+    color: var(--vermelho_claro);
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    width: 20rem;
+    height: 5rem;
+    margin-top: -2.5rem;
+    border-radius: 200px 200px 0px 0px;
+    padding-top: 1rem;
+}
+
+.programacao-block{
+    background-color: var(--branco);
+}
+
+.programacao{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 5rem;
+}
+
+.programacao > div{
+    width: 31.25rem;
+    height: 6.25rem;
+    background-image: url(../image/schedule.png);
+}
+
+.programacao > div > h6:nth-child(1){
+    position: absolute;
+    font-family: idealista;
+    color: var(--azul);
+    text-transform: uppercase;
+    width: 30%;
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+.programacao > div > h6:nth-child(2){
+    position: absolute;
+    font-family: idealista;
+    color: var(--azul);
+    text-transform: uppercase;
+    margin-top: 5.3rem;
+    margin-left: 3rem;
+    font-size: 0.9rem;
+}
+
+.programacao > div > img{
+    height: 6.25rem;
+    float: right;
+    border: 8px solid var(--vermelho_claro);
+    border-radius: 20px 0px 20px 0px;
+}
+
+/*Configuração dos originais*/
+.originals > h6{
+    font-family: idealista;
+    color: var(--branco);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.originals > div{
+    display: flex;
+    grid-gap: 5rem;
+}
+
+/*Configuração de sobre*/
+.sobre > h6{
+    font-family: idealista;
+    color: var(--branco);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.sobre > p{
+    font-family: idealista;
+    color: var(--branco);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*Configuração do rodapé*/
+.footer{
+    background-color: var(--cinza_escuro) !important;
+}
+
+footer > img{
+    width: 8rem;
+}
+
+
+footer > div > a > img{
+    width: 5rem;
+}
+
+/*Configurações para dispositivos com tamanho de telas acima de 1400px*/
+@media screen and (min-width: 1400px) {
+    /*Configuração do player*/ 
+    .player-block-two{
+        margin-top: -38rem;
+    }
+    
+    .player-two > div:nth-child(1){
+        width: 60rem !important;
+        height: 32rem !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Configurações para dispositivos com tamanho de telas abaixo de 980px*/
+@media screen and (max-width: 980px) {
+    /*Configuração da navbar*/
+    .navbar{
+        height: auto;
+    }
+
+    .navbar-logo{
+        width: auto;
+        height: auto;
+        margin-top: 0;
+        background: none;
+        border-radius: 0;
+    }
+
+    .navbar-logo > a > img{
+        width: 8rem;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .nav-item{
+        margin-top: 0;
+    }
+    
+    /*Loading screen*/
+    .loading-screen > img{
+        top: 45%;
+    }
+    
+    /*Configuração do player*/
+    
+    .player-one > img:nth-child(1){
+        height: 37rem;
+    }
+
+    .player-one > img:nth-child(2){
+        height: 37rem;
+    }
+
+    .player-block-two{
+        margin-top: -31.5rem;
+    }
+    
+    .player-two > div:nth-child(1){
+        height: 23rem !important;
+    }
+
+    .player-two > div:nth-child(2){
+        margin-top: -27rem;
+    }
+
+    /*Configuração de destaque*/
+
+    .destaque-navbar > nav{
+        height: 3rem;
+    }
+    .destaque-navbar > nav > span{
+        margin-top: -2.5rem !important;
+    }
+
+    /*Configuração dos originais*/
+    .originals > div{
+        flex-wrap: wrap;
+    }
+}
+
+/*Configurações para dispositivos com tamanho de telas abaixo de 750px*/
+@media screen and (max-width: 750px) {
+    /*Configuração do player*/ 
+    .player-one > img:nth-child(1){
+        border-radius: 0;
+        width: 100%;
+        height: 28rem;
+        object-fit: cover;
+    }
+
+    .player-one > img:nth-child(2){
+        display: none;
+    }
+
+    .player-block-two{
+        margin-top: -22rem;
+    }
+    
+    .player-two > div:nth-child(1){
+        height: 14rem !important;
+    }
+
+    .player-two > div:nth-child(2){
+        margin-top: -18rem;
+    }
+
+    /*Configuração dos destaques e grade de programação*/
+    .destaque-block{
+        margin-top: 5rem;
+    }
+
+    .destaque-navbar > nav > span{
+        margin-top: -2.5rem !important;
+    }
+
+    .programacao > div > h6:nth-child(1){
+        width: 50%;
+    }
+
+    .programacao > div > h6:nth-child(2){
+        font-size: 0.8rem;
+    }
+
+    .programacao > div > img{
+        border-radius: 20px 0px 0px 0px;
+    }    
+}

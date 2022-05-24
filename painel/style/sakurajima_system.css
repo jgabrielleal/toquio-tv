@@ -1,0 +1,163 @@
+:root{
+    --branco: #f6f6f6;
+    --azul: rgb(0, 51, 153, 0.8);
+    --vermelho_claro: rgb(219, 0, 0, 0.8);
+    --cinza_escuro: #424242;
+}
+
+@font-face {
+    font-family: idealista;
+    src: url(../font/Idealista-Bold.ttf);
+}
+
+@font-face {
+    font-family: cunia;
+    src: url(../font/Cunia.ttf);
+}
+
+body{
+    background-image: url(https://i.imgur.com/hgu6FFr.jpg) !important;
+    background-size: cover;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: var(--azul);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navbar-brand > img{
+    width: 2rem;
+}
+
+.navbar-nav > li{
+    font-family: idealista;
+    text-transform: uppercase;
+}
+
+.nav-item > a{
+    font-family: idealista;
+    text-transform: uppercase;
+}
+
+/*Sidebar*/
+.side-watching {
+    background-color: var(--vermelho_claro);
+    border-radius: 10px;
+}
+
+.side-watching > h6{
+    color: var(--branco);
+    text-transform: uppercase;
+    font-family: idealista;
+    font-size: 1.2rem;
+}
+
+.side-data{
+    background-color: var(--azul);
+    border-radius: 10px;
+}
+
+.side-data > h6{
+    font-family: idealista;
+    color: var(--branco);
+    background-color: var(--vermelho_claro);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.side-data > p{
+    font-family: idealista;
+    color: var(--branco);
+    font-size: 0.9rem;
+}
+
+.side-data > p > span{
+    color: var(--cinza_claro)
+}
+
+.side-data > a{
+    color: var(--branco);
+    text-transform: uppercase;
+    font-family: idealista;
+    font-size: 0.9rem;
+}
+
+.side-data > a:hover{
+    color: var(--branco);
+    text-decoration: none !important;
+}
+
+/*conteudo*/
+.conteudo {
+    border-radius: 10px;
+    background-color: var(--azul);
+}
+
+.conteudo > h6{
+    font-family: idealista;
+    color: var(--branco);
+    background-color: var(--vermelho_claro);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+/*Configurações do rodapé*/
+footer{
+    background-color: var(--azul);
+    border-radius: 10px;
+}
+
+footer > img{
+    width: 5rem;
+}
+
+footer > div > a > img{
+    width: 5rem;
+}
+
+/*Formuláros*/
+label{
+    font-family: idealista;
+    color: var(--branco);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+input{
+    border-radius: 10px !important;
+    margin-top: -0.2rem !important;
+}
+
+button{
+    font-family: idealista !important;
+    text-transform: uppercase !important;
+    border-radius: 10px !important;
+}
+
+/*Tabelas*/
+tr{
+    border-bottom: 1px solid #1C6EA4;
+}
+
+td{
+    color: var(--branco);
+    font-family: idealista;
+    text-transform: uppercase;
+}
+
+th{
+    color: var(--branco);
+    font-family: idealista;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+/*ALERTS*/
+.alert{
+    font-family: idealista !important;
+    text-transform: uppercase;
+}

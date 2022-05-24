@@ -1,0 +1,60 @@
+:root{
+    --branco: #f6f6f6;
+    --azul: #003399;
+    --vermelho_claro: #db0000;
+    --vermelho_escuro: #BA0000;
+    --cinza_claro: #dfdfdf;
+    --cinza_escuro: #424242;
+}
+
+@font-face {
+    font-family: idealista;
+    src: url(../font/Idealista-Bold.ttf);
+}
+
+body{
+    background-image: url(https://i.imgur.com/p1ukqTt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alert{
+    font-family: idealista !important;
+    text-transform: uppercase;
+}
+
+/*AREA DE LOGIN*/
+.area-login{
+    background-color: var(--azul);
+    border-radius: 20px;
+}
+
+label{
+    font-family: idealista;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+input{
+    border-radius: 10px !important;
+}
+
+button{
+    background-color: var(--vermelho_escuro) !important;
+    border-radius: 10px !important;
+    color: var(--branco) !important;
+    font-family: idealista !important;
+    text-transform: uppercase !important;
+}
+
+/*Creditos*/
+.credits{
+    width: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: none;
+        background-color: var(--cinza_escuro) !important;
+    }
+  }
