@@ -10,6 +10,7 @@
 
 # Frameworks used / Frameworks usadas
 - Jquery 3.6.0<br>
+- Bootstrap 4.6
 
 # Responsáveis / Owners
 >Antônio Medeiros Lopes | <img width="10rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /> @AntonioJrLopes<br>
