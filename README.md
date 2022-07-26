@@ -1,5 +1,5 @@
 # Toquio TV - Otaku Lifestyle
->Site da web-tv focada em fãs de animação japonesa. Com o nome de Toquio TV, a web-tv é uma das únicas no Brasil voltadas para esse público.
+>Site da web-tv voltada para fãs de animações japonesas (animes). Com o nome de Toquio TV, a web-tv é uma das únicas no Brasil voltadas para esse público.
 
 <div align="center"><img width="300rem" src="https://i.imgur.com/PPIx52Y.png"></div>
 
