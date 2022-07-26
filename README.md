@@ -1,5 +1,5 @@
-# Toquio TV Project
-Website for web-tv focused on Japanese animation fans. With the name of Toquio TV, web-tv is one of the only ones in Brazil focused on this audience.
+# Toquio TV - Otaku Lifestyle
+>Site da web-tv focada em fãs de animação japonesa. Com o nome de Toquio TV, a web-tv é uma das únicas no Brasil voltadas para esse público.
 
 # languages used in this project
 Javascript/Jquery<br>
