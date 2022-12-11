@@ -8,7 +8,7 @@
 - PHP 7.5<br>
 - SQL<br>
 
-# Frameworks used / Frameworks usadas
+# Frameworks and librarys used / Frameworks e bibliotecas usadas
 - Jquery 3.6.0<br>
 - Bootstrap 4.6
 
