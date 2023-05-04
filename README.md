@@ -12,11 +12,6 @@
 - Jquery 3.6.0<br>
 - Bootstrap 4.6
 
-# Responsáveis / Owners
->Antônio Medeiros Lopes | <img width="10rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /> @AntonioJrLopes<br>
->Ellyson Santos | <img width="10rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /> @Neko_Kirame<br>
->João Gabriel dos Anjos leal | <img width="10rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" /> @Kidztaku
-
 # How to use / Como usar
 >1º Create a SQL database and import the file "toquiotv.sql" to the created database.<br>
 >2º Check the CSS and Javascript import links in the files "sakurajima_header", "sakurajima_footer in the "archives" folder inside the "painel" folder.<br>
